@@ -1,5 +1,3 @@
-// Compile using gcc dpp.c -lpthread
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
