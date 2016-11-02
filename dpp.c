@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <assert.h>
 
-#define P 7
+#define P 5
 
 pthread_mutex_t mutex[P];
 pthread_cond_t forks[P];
@@ -78,7 +78,7 @@ int main(int argc, char const *argv[])
 	//Launch threads. 
 	for(i = 0;i < P;++i) {
 		tmp[i] = i;
-		printf("Starting thread %d\n", i);
+		printf("Philosopher %d arrived at the table.\n", i+1);
 		int err = pthread_create(&philosopher[i],NULL,(void*)current_thread,(void*)&tmp[i]);
 		assert(!err);
 	}
