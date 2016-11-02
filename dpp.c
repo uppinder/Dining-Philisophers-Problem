@@ -2,17 +2,44 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <time.h>
-#include <pthread.h>
 #include <unistd.h>
 #include <assert.h>
+#include "dpp.h"
 
-#define P 5
 
-pthread_mutex_t mutex[P];
-pthread_cond_t forks[P];
-bool forkState[P];
+int main(int argc, char const *argv[]) 
+{
+	srand(time(NULL));
+	int i,tmp[P],err;
+
+	for(i = 0;i < P;++i) {
+		forkState[i] = true;
+		err = pthread_mutex_init(&mutex[i],NULL);
+		assert(!err);
+		err = pthread_cond_init(&forks[i],NULL);
+		assert(!err);
+	}
+
+	//Launch threads. 
+	for(i = 0;i < P;++i) {
+		tmp[i] = i;
+		printf("Philosopher %d arrived at the table.\n", i+1);
+		int err = pthread_create(&philosopher[i],NULL,(void*)current_thread,(void*)&tmp[i]);
+		assert(!err);
+	}
+
+	for(i = 0;i < P;++i) 
+		pthread_join(philosopher[i],NULL);
+
+	for(i = 0;i < P;++i) {
+		pthread_mutex_destroy(&mutex[i]);
+		pthread_cond_destroy(&forks[i]);
+	}
+
+
+	return 0;
+}
 
 void pickup_forks(int i) 
 {
@@ -59,38 +86,4 @@ void *current_thread(void *philosopher_number)
 		
 		usleep((rand()%3+1)*(1e6));
 	}
-}
-
-int main(int argc, char const *argv[]) 
-{
-	pthread_t philosopher[P];
-	srand(time(NULL));
-
-	int i,tmp[P],err;
-	for(i = 0;i < P;++i) {
-		forkState[i] = true;
-		err = pthread_mutex_init(&mutex[i],NULL);
-		assert(!err);
-		err = pthread_cond_init(&forks[i],NULL);
-		assert(!err);
-	}
-
-	//Launch threads. 
-	for(i = 0;i < P;++i) {
-		tmp[i] = i;
-		printf("Philosopher %d arrived at the table.\n", i+1);
-		int err = pthread_create(&philosopher[i],NULL,(void*)current_thread,(void*)&tmp[i]);
-		assert(!err);
-	}
-
-	for(i = 0;i < P;++i) 
-		pthread_join(philosopher[i],NULL);
-
-	for(i = 0;i < P;++i) {
-		pthread_mutex_destroy(&mutex[i]);
-		pthread_cond_destroy(&forks[i]);
-	}
-
-
-	return 0;
 }
