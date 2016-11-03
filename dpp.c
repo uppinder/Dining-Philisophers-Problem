@@ -44,13 +44,28 @@ void pickup_forks(int i)
 	pthread_mutex_lock(&mutex[i]);
 	pthread_mutex_lock(&mutex[(i+1)%P]);
 
-	while(!forkState[i])
-		pthread_cond_wait(&forks[i],&mutex[i]);
-	forkState[i] = false;
+	//This is to prevent deadlocks.
+	if(i&1 == 0) {
+	
+		while(!forkState[i])
+			pthread_cond_wait(&forks[i],&mutex[i]);
+		forkState[i] = false;
 
-	while(!forkState[(i+1)%P])
-		pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
-	forkState[(i+1)%P] = false;
+		while(!forkState[(i+1)%P])
+			pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
+		forkState[(i+1)%P] = false;
+	
+	} else {
+	
+		while(!forkState[(i+1)%P])
+			pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
+		forkState[(i+1)%P] = false;
+		
+		while(!forkState[i])
+			pthread_cond_wait(&forks[i],&mutex[i]);
+		forkState[i] = false;
+
+	}
 	
 	pthread_mutex_unlock(&mutex[i]);
 	pthread_mutex_unlock(&mutex[(i+1)%P]);
