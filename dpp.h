@@ -11,8 +11,8 @@ pthread_cond_t forks[P];
 pthread_t philosopher[P];
 bool forkState[P];
 
-void pickup_forks(int i); 
-void return_forks(int i);
-void *current_thread(void *);
+void pickup_forks(int); 
+void return_forks(int);
+void *current_thread(void*);
 
 #endif
