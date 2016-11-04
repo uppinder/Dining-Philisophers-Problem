@@ -5,14 +5,18 @@
 #include <pthread.h>
 
 #define P 5
+#define MAX_CYCLES 200
+#define MIN_PHIL_CYCLE 40
 
-pthread_mutex_t mutex[P];
+pthread_mutex_t mutex[P],disp_mutex;
 pthread_cond_t forks[P];
 pthread_t philosopher[P];
 bool forkState[P];
+int total_cycles = 0, phil_cycles[P];
 
-void pickup_forks(int i); 
-void return_forks(int i);
+void pickup_forks(int); 
+void return_forks(int);
 void *current_thread(void *);
+bool display_count(int);
 
 #endif
