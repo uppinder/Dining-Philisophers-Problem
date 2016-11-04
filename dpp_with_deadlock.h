@@ -8,7 +8,6 @@
 #define MAX_CYCLES 200
 
 pthread_mutex_t mutex[P],disp_mutex;
-pthread_cond_t forks[P];
 pthread_t philosopher[P];
 bool forkState[P];
 int total_cycles = 0, phil_cycles[P];

@@ -59,21 +59,21 @@ void pickup_forks(int i)
 	
 	if(i&1 == 0) {
 	
-		while(!forkState[i])
+		if(!forkState[i])
 			pthread_cond_wait(&forks[i],&mutex[i]);
 		forkState[i] = false;
 
-		while(!forkState[(i+1)%P])
+		if(!forkState[(i+1)%P])
 			pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
 		forkState[(i+1)%P] = false;
 	
 	} else {
 	
-		while(!forkState[(i+1)%P])
+		if(!forkState[(i+1)%P])
 			pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
 		forkState[(i+1)%P] = false;
 		
-		while(!forkState[i])
+		if(!forkState[i])
 			pthread_cond_wait(&forks[i],&mutex[i]);
 		forkState[i] = false;
 
@@ -101,7 +101,7 @@ void return_forks(int i)
 bool display_count(int p) {
 	bool end = false;
 	pthread_mutex_lock(&disp_mutex);
-
+	
 	if(total_cycles >= MAX_CYCLES) {
 		end = true;
 		pthread_mutex_unlock(&disp_mutex);
@@ -109,10 +109,7 @@ bool display_count(int p) {
 	}
 	
 	printf("# Eating Count = %d\n", ++total_cycles);
-	
-	// if(total_cycles >= MAX_CYCLES)
-	// 	end = true;
-	
+
 	pthread_mutex_unlock(&disp_mutex);
 	return end;
 }
@@ -121,7 +118,7 @@ void *current_thread(void *philosopher_number)
  {
  	int p = *(int*)philosopher_number,delay;
 	while(1) {
-		printf("Philosopher %d waiting and trying to pickup forks.\n",p);
+		printf("Philosopher %d waiting and trying to pickup forks.\n",p+1);
 		pickup_forks(p);
 
 		delay = (rand()%3+1);
@@ -134,10 +131,10 @@ void *current_thread(void *philosopher_number)
 		printf("Philosopher %d is thinking for %d seconds.\n",p + 1, delay);	
 		sleep(delay);
 		
-		// phil_cycles[p]++;	
+			
 		if(display_count(p))
 			break;
-		else
+		else 
 			phil_cycles[p]++;
 	}
 }
