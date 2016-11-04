@@ -70,33 +70,6 @@ void pickup_forks(int i)
 	
 	pthread_mutex_unlock(&mutex[(i+1)%P]);
 
-	// pthread_mutex_lock(&mutex[i]);
-	// pthread_mutex_lock(&mutex[(i+1)%P]);
-	
-	// if(i&1 == 0) {
-	
-	// 	while(!forkState[i])
-	// 		pthread_cond_wait(&forks[i],&mutex[i]);
-	// 	forkState[i] = false;
-
-	// 	while(!forkState[(i+1)%P])
-	// 		pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
-	// 	forkState[(i+1)%P] = false;
-	
-	// } else {
-	
-	// 	while(!forkState[(i+1)%P])
-	// 		pthread_cond_wait(&forks[(i+1)%P],&mutex[(i+1)%P]);		
-	// 	forkState[(i+1)%P] = false;
-		
-	// 	while(!forkState[i])
-	// 		pthread_cond_wait(&forks[i],&mutex[i]);
-	// 	forkState[i] = false;
-
-	// }
-
-	// pthread_mutex_unlock(&mutex[i]);
-	// pthread_mutex_unlock(&mutex[(i+1)%P]);
 }
 
 void return_forks(int i) 
@@ -130,6 +103,7 @@ void *current_thread(void *philosopher_number)
  {
  	int p = *(int*)philosopher_number,delay;
 	while(1) {
+		printf("Philosopher %d waiting and trying to pickup forks.\n",p);
 		pickup_forks(p);
 
 		delay = (rand()%3+1);
@@ -143,7 +117,7 @@ void *current_thread(void *philosopher_number)
 		sleep(delay);
 		
 		phil_cycles[p]++;	
-		if(display_count(p) || phil_cycles[p] == MIN_PHIL_CYCLE)
+		if(display_count(p))
 			break;
 	}
 }

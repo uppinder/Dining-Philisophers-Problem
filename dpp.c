@@ -115,6 +115,7 @@ void *current_thread(void *philosopher_number)
  {
  	int p = *(int*)philosopher_number,delay;
 	while(1) {
+		printf("Philosopher %d waiting and trying to pickup forks.\n",p);
 		pickup_forks(p);
 
 		delay = (rand()%3+1);
