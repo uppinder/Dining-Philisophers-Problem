@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
 	}
 
 	for(i = 0;i < P;++i) {
-		printf("Philosopher %d : %d\n", i+1,phil_cycles[i]);
+		printf("Philosopher %d : %d cycles.\n", i+1,phil_cycles[i]);
 	}
 
 	pthread_mutex_destroy(&disp_mutex);
@@ -128,7 +128,7 @@ void *current_thread(void *philosopher_number)
 		sleep(delay);
 		
 		phil_cycles[p]++;	
-		if(display_count(p) || phil_cycles[p] == MIN_PHIL_CYCLE)
+		if(display_count(p))
 			break;
 	}
 }

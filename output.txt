@@ -1,0 +1,606 @@
+# Eating Count = 0
+Philosopher 1 is eating for 3 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 2 seconds.
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 3 seconds.
+# Eating Count = 1
+# Eating Count = 2
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 3
+# Eating Count = 4
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 2 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 3 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 5
+# Eating Count = 6
+Philosopher 5 is thinking for 2 seconds.
+# Eating Count = 7
+Philosopher 1 is eating for 1 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 2 seconds.
+# Eating Count = 8
+# Eating Count = 9
+# Eating Count = 10
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 11
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 12
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 1 seconds.
+# Eating Count = 13
+# Eating Count = 14
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 2 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 15
+# Eating Count = 16
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 2 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 17
+# Eating Count = 18
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 19
+# Eating Count = 20
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 3 seconds.
+# Eating Count = 21
+# Eating Count = 22
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 23
+Philosopher 3 is thinking for 3 seconds.
+# Eating Count = 24
+Philosopher 4 is eating for 2 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 25
+Philosopher 2 is thinking for 3 seconds.
+# Eating Count = 26
+Philosopher 3 is eating for 3 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 27
+# Eating Count = 28
+# Eating Count = 29
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 30
+Philosopher 2 is thinking for 3 seconds.
+# Eating Count = 31
+Philosopher 3 is eating for 3 seconds.
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 1 seconds.
+# Eating Count = 32
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 3 is thinking for 1 seconds.
+# Eating Count = 33
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 34
+# Eating Count = 35
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 36
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 1 seconds.
+# Eating Count = 37
+Philosopher 3 is thinking for 1 seconds.
+# Eating Count = 38
+Philosopher 4 is eating for 2 seconds.
+# Eating Count = 39
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 40
+Philosopher 1 is eating for 3 seconds.
+Philosopher 4 is thinking for 3 seconds.
+# Eating Count = 41
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 42
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 2 is eating for 2 seconds.
+# Eating Count = 43
+# Eating Count = 44
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 45
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 46
+# Eating Count = 47
+# Eating Count = 48
+Philosopher 5 is eating for 2 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 49
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 50
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 3 is eating for 1 seconds.
+# Eating Count = 51
+# Eating Count = 52
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 5 is eating for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+Philosopher 1 is thinking for 1 seconds.
+# Eating Count = 53
+# Eating Count = 54
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 55
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 1 seconds.
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 4 is thinking for 1 seconds.
+# Eating Count = 56
+Philosopher 5 is eating for 1 seconds.
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 57
+Philosopher 5 is thinking for 2 seconds.
+# Eating Count = 58
+# Eating Count = 59
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 60
+# Eating Count = 61
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 3 is thinking for 1 seconds.
+# Eating Count = 62
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 63
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 64
+Philosopher 5 is thinking for 2 seconds.
+# Eating Count = 65
+# Eating Count = 66
+Philosopher 1 is eating for 1 seconds.
+# Eating Count = 67
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 1 seconds.
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 68
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 1 seconds.
+# Eating Count = 69
+# Eating Count = 70
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 71
+Philosopher 4 is thinking for 3 seconds.
+# Eating Count = 72
+Philosopher 5 is eating for 2 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 2 seconds.
+# Eating Count = 73
+# Eating Count = 74
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 3 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 75
+# Eating Count = 76
+Philosopher 1 is thinking for 2 seconds.
+# Eating Count = 77
+Philosopher 2 is eating for 1 seconds.
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 78
+# Eating Count = 79
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 3 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 80
+# Eating Count = 81
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 2 seconds.
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 82
+# Eating Count = 83
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 1 seconds.
+# Eating Count = 84
+# Eating Count = 85
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 1 is eating for 1 seconds.
+# Eating Count = 86
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 1 seconds.
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 2 seconds.
+# Eating Count = 87
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 88
+Philosopher 2 is thinking for 1 seconds.
+# Eating Count = 89
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 90
+# Eating Count = 91
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 1 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 2 seconds.
+Philosopher 4 is thinking for 1 seconds.
+# Eating Count = 92
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 93
+# Eating Count = 94
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+# Eating Count = 95
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 96
+# Eating Count = 97
+# Eating Count = 98
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 99
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 100
+# Eating Count = 101
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 2 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 1 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 102
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 103
+# Eating Count = 104
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 105
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 106
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 107
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 2 seconds.
+# Eating Count = 108
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 2 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 109
+# Eating Count = 110
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 1 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is thinking for 2 seconds.
+# Eating Count = 111
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 112
+# Eating Count = 113
+# Eating Count = 114
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 115
+# Eating Count = 116
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 1 is eating for 1 seconds.
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 117
+# Eating Count = 118
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 3 seconds.
+# Eating Count = 119
+# Eating Count = 120
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 121
+# Eating Count = 122
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 123
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 1 seconds.
+# Eating Count = 124
+# Eating Count = 125
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 1 is eating for 2 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 126
+# Eating Count = 127
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 128
+# Eating Count = 129
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 3 is thinking for 1 seconds.
+# Eating Count = 130
+# Eating Count = 131
+Philosopher 3 is eating for 1 seconds.
+# Eating Count = 132
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 3 seconds.
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 2 seconds.
+# Eating Count = 133
+# Eating Count = 134
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 3 is thinking for 1 seconds.
+# Eating Count = 135
+# Eating Count = 136
+Philosopher 4 is eating for 2 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 137
+# Eating Count = 138
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 3 is eating for 1 seconds.
+# Eating Count = 139
+Philosopher 5 is eating for 3 seconds.
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 140
+# Eating Count = 141
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 2 seconds.
+Philosopher 4 is eating for 2 seconds.
+# Eating Count = 142
+# Eating Count = 143
+# Eating Count = 144
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 3 is eating for 2 seconds.
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 2 seconds.
+# Eating Count = 145
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 146
+# Eating Count = 147
+# Eating Count = 148
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 2 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 149
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 150
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 1 seconds.
+# Eating Count = 151
+# Eating Count = 152
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 3 seconds.
+Philosopher 5 is thinking for 3 seconds.
+# Eating Count = 153
+# Eating Count = 154
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 155
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 156
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 157
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 1 seconds.
+Philosopher 5 is thinking for 1 seconds.
+# Eating Count = 158
+Philosopher 2 is thinking for 2 seconds.
+# Eating Count = 159
+Philosopher 1 is eating for 2 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 160
+# Eating Count = 161
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 1 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 162
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 163
+# Eating Count = 164
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 1 seconds.
+Philosopher 3 is thinking for 3 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 165
+Philosopher 1 is thinking for 1 seconds.
+# Eating Count = 166
+# Eating Count = 167
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 168
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 2 is thinking for 2 seconds.
+Philosopher 3 is eating for 2 seconds.
+# Eating Count = 169
+Philosopher 5 is thinking for 2 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 170
+Philosopher 4 is eating for 2 seconds.
+Philosopher 3 is thinking for 2 seconds.
+# Eating Count = 171
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 2 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 172
+# Eating Count = 173
+Philosopher 2 is thinking for 3 seconds.
+# Eating Count = 174
+Philosopher 3 is eating for 2 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+Philosopher 3 is thinking for 2 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 175
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 2 is eating for 1 seconds.
+# Eating Count = 176
+Philosopher 2 is thinking for 1 seconds.
+# Eating Count = 177
+# Eating Count = 178
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 3 seconds.
+Philosopher 3 is eating for 3 seconds.
+# Eating Count = 179
+# Eating Count = 180
+Philosopher 2 is eating for 2 seconds.
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 3 seconds.
+# Eating Count = 181
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 1 seconds.
+Philosopher 4 is thinking for 3 seconds.
+Philosopher 2 is thinking for 3 seconds.
+Philosopher 3 is eating for 1 seconds.
+Philosopher 1 is thinking for 3 seconds.
+Philosopher 3 is thinking for 3 seconds.
+# Eating Count = 182
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 183
+# Eating Count = 184
+Philosopher 2 is eating for 3 seconds.
+# Eating Count = 185
+# Eating Count = 186
+Philosopher 4 is eating for 1 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 3 is eating for 3 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 187
+# Eating Count = 188
+# Eating Count = 189
+Philosopher 3 is thinking for 1 seconds.
+Philosopher 4 is eating for 3 seconds.
+Philosopher 1 is thinking for 1 seconds.
+Philosopher 2 is eating for 1 seconds.
+Philosopher 2 is thinking for 2 seconds.
+# Eating Count = 190
+# Eating Count = 191
+Philosopher 4 is thinking for 2 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 192
+Philosopher 5 is thinking for 1 seconds.
+Philosopher 1 is eating for 3 seconds.
+# Eating Count = 193
+Philosopher 4 is eating for 2 seconds.
+# Eating Count = 194
+Philosopher 1 is thinking for 2 seconds.
+Philosopher 2 is eating for 3 seconds.
+Philosopher 4 is thinking for 1 seconds.
+Philosopher 5 is eating for 2 seconds.
+# Eating Count = 195
+# Eating Count = 196
+Philosopher 2 is thinking for 1 seconds.
+Philosopher 5 is thinking for 3 seconds.
+Philosopher 1 is eating for 2 seconds.
+# Eating Count = 197
+Philosopher 1 is thinking for 1 seconds.
+# Eating Count = 198
+Philosopher 5 is eating for 3 seconds.
+# Eating Count = 199
+Philosopher 5 is thinking for 1 seconds.
+# Eating Count = 200
+Philosopher 1 : 40
+Philosopher 2 : 40
+Philosopher 3 : 40
+Philosopher 4 : 40
+Philosopher 5 : 40

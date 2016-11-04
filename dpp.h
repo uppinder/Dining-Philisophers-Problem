@@ -6,7 +6,6 @@
 
 #define P 5
 #define MAX_CYCLES 200
-#define MIN_PHIL_CYCLE 40
 
 pthread_mutex_t mutex[P],disp_mutex;
 pthread_cond_t forks[P];
