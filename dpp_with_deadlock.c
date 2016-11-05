@@ -89,11 +89,17 @@ void return_forks(int i)
 bool display_count(int p) {
 	bool end = false;
 	pthread_mutex_lock(&disp_mutex);
+
+	if(total_cycles >= MAX_CYCLES) {
+		end = true;
+		pthread_mutex_unlock(&disp_mutex);
+		return end;
+	}
 	
 	printf("# Eating Count = %d\n", ++total_cycles);
 	
-	if(total_cycles >= MAX_CYCLES)
-		end = true;
+	// if(total_cycles >= MAX_CYCLES)
+	// 	end = true;
 	
 	pthread_mutex_unlock(&disp_mutex);
 	return end;
@@ -116,8 +122,10 @@ void *current_thread(void *philosopher_number)
 		printf("Philosopher %d is thinking for %d seconds.\n",p + 1, delay);	
 		sleep(delay);
 		
-		phil_cycles[p]++;	
+		// phil_cycles[p]++;	
 		if(display_count(p))
 			break;
+		else
+			phil_cycles[p]++;
 	}
 }
