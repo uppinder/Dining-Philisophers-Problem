@@ -5,7 +5,7 @@
 #include <pthread.h>
 
 #define P 5
-#define MAX_CYCLES 200
+#define MAX_CYCLES 20
 
 pthread_mutex_t mutex[P],disp_mutex;
 pthread_cond_t forks[P];
